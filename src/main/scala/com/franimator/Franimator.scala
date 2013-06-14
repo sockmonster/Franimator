@@ -19,6 +19,7 @@ class Franimator(val shapes: List[Shape]) extends JPanel with Runnable {
   }
   
   override def paintComponent(g: Graphics) {
+    // testing commit
     val g2d = g.asInstanceOf[Graphics2D]
     
     for(shape <- shapes) {
